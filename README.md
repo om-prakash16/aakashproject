@@ -60,13 +60,15 @@ In the fast-paced world of F&O (Futures & Options) trading, speed and clarity ar
     source venv/bin/activate
     
     pip install -r requirements.txt
-    python main.py
+    uvicorn main:app --reload --port 8000
+
     ```
 
 2.  **Setup Frontend**
     ```bash
     cd frontend
-    # Note: Frontend Setup steps here
+    npm install
+    npm run dev
     ```
 
 ---
