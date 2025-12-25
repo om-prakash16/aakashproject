@@ -5,3 +5,4 @@ pyotp
 python-dotenv
 pandas
 logzero
+websocket-client
