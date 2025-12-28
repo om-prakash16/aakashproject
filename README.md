@@ -60,7 +60,8 @@ In the fast-paced world of F&O (Futures & Options) trading, speed and clarity ar
     source venv/bin/activate
     
     pip install -r requirements.txt
-    uvicorn main:app --reload --port 8000
+    uvicorn app.main:app --reload --port 8000
+
 
     ```
 
